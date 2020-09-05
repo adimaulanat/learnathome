@@ -3,23 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const username = 'adimaulanat'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <img src="https://via.placeholder.com/300" alt="profile picture" />
+    <div>@{username}</div>
+    <button>Follow</button>
+    <div>Posts</div>
+    <div>Follower</div>
+    <div>Following</div>
+    <div>Bio</div>
+    </>
   );
 }
 
